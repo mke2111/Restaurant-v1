@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mke2111/Restaurant-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mke2111/Restaurant-v1/issues"
+  },
+  "homepage": "https://github.com/mke2111/Restaurant-v1#readme",
+  "devDependencies": {
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
