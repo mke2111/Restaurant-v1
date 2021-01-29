@@ -50,9 +50,6 @@ const homePage = () => {
       aboutDv.classList.add('hidden');
     });
   }
-
 };
-
-
 
 export default homePage;

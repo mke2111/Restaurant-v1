@@ -10,19 +10,19 @@ const menu = () => {
   info.classList.add('absolute', 'top-0', 'pl-96', 'pt-40', 'text-lg', 'text-red', 'text-center');
 
   const infoP = document.createElement('p');
-  infoP.textContent= 'Paradise in Hawaiin combos for your tastes. Paradise in Hawaiin combos for your tastes';
+  infoP.textContent = 'Paradise in Hawaiin combos for your tastes. Paradise in Hawaiin combos for your tastes';
 
   const infoBtn = document.createElement('button');
   infoBtn.innerText = 'Order';
   infoBtn.classList.add('bg-red-500', 'hover:bg-red-700', 'py-2', 'px-4', 'rounded-full');
 
   info.appendChild(infoP);
-  info.appendChild(infoBtn)
+  info.appendChild(infoBtn);
 
   menuDiv.appendChild(bg);
   menuDiv.appendChild(info);
 
   return menuDiv;
-}
+};
 
 export default menu;

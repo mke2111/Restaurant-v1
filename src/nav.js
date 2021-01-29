@@ -12,7 +12,7 @@ const nav = () => {
   tab.appendChild(element);
   tab.appendChild(elementPara);
 
-  return tab
-}
+  return tab;
+};
 
 export default nav;

@@ -17,14 +17,12 @@ const tabs = () => {
   contact.setAttribute('id', 'contact');
   contact.classList.add('text-center', 'text-lg', 'bg-gray-600', 'rounded-md', 'font-mono', 'p-2');
   contact.innerText = 'Contact';
-  // contact.addEventListener('click', contacts);
-
 
   tabsDiv.appendChild(home);
   tabsDiv.appendChild(about);
   tabsDiv.appendChild(contact);
 
   return tabsDiv;
-}
+};
 
 export default tabs;

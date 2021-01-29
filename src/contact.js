@@ -25,6 +25,6 @@ const contacts = () => {
   contactDiv.appendChild(twitter);
 
   return contactDiv;
-}
+};
 
 export default contacts;

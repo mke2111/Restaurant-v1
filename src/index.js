@@ -1,4 +1,3 @@
-import homePage from './homer.js'
+import homePage from './homer';
 
 homePage();
-
