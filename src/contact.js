@@ -1,22 +1,23 @@
-const contact = () => {
+const contacts = () => {
   const contactDiv = document.createElement('div');
-  // contactDiv.classList.add('relative');
+  contactDiv.classList.add('contact-us', 'hidden');
 
   const headline = document.createElement('h2');
   headline.innerText = 'Contact Us at these socials';
 
   const facebook = document.createElement('div');
-  facebook.classList.add('');
+  facebook.classList.add('m');
 
   const fHeadline = document.createElement('h4');
   fHeadline.innerText = 'Facebook: HottestBites';
-  facebook.appendChild(fHeadline);
 
   const twitter = document.createElement('div');
-  twitter.classList.add('');
+  twitter.classList.add('k');
 
   const tHeadline = document.createElement('h4');
   tHeadline.innerText = 'Twitter: @hottestBites';
+
+  facebook.appendChild(fHeadline);
   twitter.appendChild(tHeadline);
 
   contactDiv.appendChild(headline);
@@ -26,4 +27,4 @@ const contact = () => {
   return contactDiv;
 }
 
-export default contact;
+export default contacts;
