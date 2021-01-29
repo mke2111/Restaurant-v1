@@ -1,6 +1,6 @@
 const menu = () => {
   const menuDiv = document.createElement('div');
-  menuDiv.classList.add('hidden', 'menu-us', 'relative');
+  menuDiv.classList.add('menu-us', 'relative', 'block');
 
   const bg = document.createElement('div');
   bg.style.backgroundImage = "url('https://images.unsplash.com/photo-1576777647209-e8733d7b851d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60')";

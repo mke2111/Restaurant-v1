@@ -8,6 +8,11 @@ const tabs = () => {
   home.innerText = 'Home';
   // home.addEventListener('click', menu);
 
+  const about = document.createElement('button');
+  about.setAttribute('id', 'about');
+  about.classList.add('text-center', 'text-lg', 'bg-gray-600', 'rounded-md', 'font-mono', 'p-2');
+  about.innerText = 'About';
+
   const contact = document.createElement('button');
   contact.setAttribute('id', 'contact');
   contact.classList.add('text-center', 'text-lg', 'bg-gray-600', 'rounded-md', 'font-mono', 'p-2');
@@ -16,6 +21,7 @@ const tabs = () => {
 
 
   tabsDiv.appendChild(home);
+  tabsDiv.appendChild(about);
   tabsDiv.appendChild(contact);
 
   return tabsDiv;
