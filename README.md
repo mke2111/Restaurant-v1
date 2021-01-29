@@ -4,7 +4,7 @@
 > This is a one page website that uses tabs for navigation. ES6 functionality is largely adopted and all modules are linked with import and export Javascript defaults.
 
 
-![screenshot](./Screenshot.png)
+![screenshot](./screenshot.png)
 
 
 ## Built
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/diazgio/Library-JS/feature/libraryp1/index.html)
+[Live Demo](https://rawcdn.githack.com/mke2111/Restaurant-v1/c22f935a9dfbefef3ee9cae925d8a7435f398d8f/dist/index.html)
 
 
 ## Getting Started
