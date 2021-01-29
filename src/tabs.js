@@ -6,7 +6,6 @@ const tabs = () => {
   home.setAttribute('id', 'home');
   home.classList.add('text-center', 'text-lg', 'bg-gray-600', 'rounded-md', 'font-mono', 'p-2');
   home.innerText = 'Home';
-  // home.addEventListener('click', menu);
 
   const about = document.createElement('button');
   about.setAttribute('id', 'about');
